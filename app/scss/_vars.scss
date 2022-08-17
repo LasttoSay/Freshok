@@ -1,0 +1,30 @@
+//colours
+$darkBg: #31352B;
+$greenBg: #63A60E;
+$defaultFont: #121212;
+
+
+
+//fonts
+%openSans-400 {
+  font-family: 'OpenSans-Regular', sans-serif;
+  font-weight: 400;
+}
+
+
+%openSans-600 {
+  font-family: 'OpenSans-SemiBold', sans-serif;
+  font-weight: 600;
+}
+
+%openSans-700 {
+  font-family: 'OpenSans-Bold', sans-serif;
+  font-weight: 700;
+}
+
+
+%img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
