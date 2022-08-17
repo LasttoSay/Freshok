@@ -48,12 +48,76 @@
           <a href="#" class="logo">
             <img class="logo-img" src="images/icons/logo.svg" alt="logo image">
           </a>
-          <button class="catalog">
-            <img class="catalog__icon" src="images/icons/menuIcon.svg" alt="menu icon picture">
-            <span class="catalog__text">
-              Каталог продуктов
-            </span>
-          </button>
+          <div class="catalog">
+            <button class="catalog__btn">
+              <img class="catalog__icon" src="images/icons/menuIcon.svg" alt="menu icon picture">
+              <span class="catalog__text">
+                Каталог продуктов
+              </span>
+            </button>
+            <ul class="catalog__content">
+              <li class="catalog__content-item">
+                <a class="catalog__content-link" href="#">
+                  Овощи и фрукты
+                </a>
+              </li>
+              <li class="catalog__content-item">
+                <a class="catalog__content-link" href="#">
+                  Бакалея
+                </a>
+              </li>
+              <li class="catalog__content-item">
+                <a class="catalog__content-link" href="#">
+                  Молочные продукты
+                </a>
+              </li>
+              <li class="catalog__content-item">
+                <a class="catalog__content-link" href="#">
+                  Хлеб
+                </a>
+              </li>
+              <li class="catalog__content-item">
+                <a class="catalog__content-link" href="#">
+                  Мясо
+                </a>
+              </li>
+              <li class="catalog__content-item">
+                <a class="catalog__content-link" href="#">
+                  Колбаса
+                </a>
+              </li>
+              <li class="catalog__content-item">
+                <a class="catalog__content-link" href="#">
+                  Рыба
+                </a>
+              </li>
+              <li class="catalog__content-item">
+                <a class="catalog__content-link" href="#">
+                  Алкоголь
+                </a>
+              </li>
+              <li class="catalog__content-item">
+                <a class="catalog__content-link" href="#">
+                  Напитки
+                </a>
+              </li>
+              <li class="catalog__content-item">
+                <a class="catalog__content-link" href="#">
+                  Торты
+                </a>
+              </li>
+              <li class="catalog__content-item">
+                <a class="catalog__content-link" href="#">
+                  Мясо
+                </a>
+              </li>
+              <li class="catalog__content-item">
+                <a class="catalog__content-link" href="#">
+                  Чай, кофе
+                </a>
+              </li>
+            </ul>
+          </div>
           <form class="search">
             <label class="search__label">
               <input class="search__input" type="text" placeholder="Найти в магазине ...">
@@ -89,6 +153,71 @@
     </div>
 
   </header>
+  <main class="main">
+
+    <section class="slider">
+      <ul class="slider__content">
+
+        <li class="slider__item" style="background-image: url(images/slider/carrot.jpg);">
+          <div class="container">
+            <div class="slider__item-inner">
+              <p class="slider__item-title">
+                СВЕЖАЧОК ВАМ в ХАТУ
+                <span class="slider__item-offer">
+                  Скидка -50%
+                </span>
+              </p>
+              <p class="slider__item-description">
+                Только с 7 по 13 июля скидка на сезонные фрукты и овощи до 50%. Торопитесь!
+              </p>
+              <button class="slider__btn">
+                Купить сейчас
+              </button>
+            </div>
+          </div>
+        </li>
+
+        <li class="slider__item" style="background-image: url(images/slider/tomatoes.jpg);">
+          <div class="container">
+            <div class="slider__item-inner">
+              <p class="slider__item-title">
+                НАКРУТИ СЕБЕ ТОМАТОВ
+                <span class="slider__item-offer">
+                  АКЦИЯ: 3 кг по цене 1
+                </span>
+              </p>
+              <p class="slider__item-description">
+                Только с 12 по 15 июля скидка на домашние помидорчики
+              </p>
+              <button class="slider__btn">
+                Купить сейчас
+              </button>
+            </div>
+          </div>
+        </li>
+
+        <li class="slider__item" style="background-image: url(images/slider/leaves.jpg);">
+          <div class="container">
+            <div class="slider__item-inner">
+              <p class="slider__item-title">
+                Пусть остальные
+                позеленеют от зависти
+                <span class="slider__item-offer">
+                  Распродажа зелени
+                </span>
+              </p>
+              <button class="slider__btn">
+                Купить сейчас
+              </button>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+      </div>
+    </section>
+
+  </main>
   <script src='js/main.min.js'></script>
 </body>
 
